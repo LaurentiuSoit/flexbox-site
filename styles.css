@@ -42,9 +42,24 @@ body
 {
     display: flex;
     flex: 13;
-    background-color:blueviolet;
 }
 
+.middle-portion div
+{
+    height: 100%;
+}
+
+.left-links
+{
+    width: 300px;
+    flex-shrink: 0;
+    background-color:royalblue;
+}
+
+.right-panes
+{
+    flex: 1;
+}
 
 .bottom-bar
 {
